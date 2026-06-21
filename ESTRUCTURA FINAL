@@ -1,0 +1,28 @@
+sigma-cmms/
+│
+├── app/
+│   ├── api/
+│   │   ├── assets.py
+│   │   ├── work_orders.py
+│   │   ├── users.py
+│   │   └── plant.py
+│
+│   ├── db/
+│   │   └── database.py
+│
+│   ├── models/
+│   │   ├── asset.py
+│   │   ├── work_order.py
+│   │   ├── user.py
+│
+│   ├── templates/
+│   │   ├── base.html
+│   │   └── plant.html
+│
+│   ├── main.py
+│
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .gitignore
+└── README.md
